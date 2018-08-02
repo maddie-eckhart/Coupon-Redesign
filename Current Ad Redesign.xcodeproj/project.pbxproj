@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2DCECC8121135FAC007A0C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECC8021135FAC007A0C2C /* AppDelegate.swift */; };
-		2DCECC8321135FAC007A0C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECC8221135FAC007A0C2C /* ViewController.swift */; };
+		2DCECC8321135FAC007A0C2C /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECC8221135FAC007A0C2C /* AdViewController.swift */; };
 		2DCECC8621135FAC007A0C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCECC8421135FAC007A0C2C /* Main.storyboard */; };
 		2DCECC8821135FAD007A0C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCECC8721135FAD007A0C2C /* Assets.xcassets */; };
 		2DCECC8B21135FAD007A0C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCECC8921135FAD007A0C2C /* LaunchScreen.storyboard */; };
-		2DCECC9621135FAD007A0C2C /* Current_Ad_RedesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECC9521135FAD007A0C2C /* Current_Ad_RedesignTests.swift */; };
-		2DCECCA121135FAD007A0C2C /* Current_Ad_RedesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECCA021135FAD007A0C2C /* Current_Ad_RedesignUITests.swift */; };
+		2DCECCAF21138084007A0C2C /* PageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECCAE21138084007A0C2C /* PageTableViewController.swift */; };
+		2DCECCB121138246007A0C2C /* PageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCECCB021138246007A0C2C /* PageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +36,15 @@
 /* Begin PBXFileReference section */
 		2DCECC7D21135FAC007A0C2C /* Current Ad Redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Current Ad Redesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCECC8021135FAC007A0C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DCECC8221135FAC007A0C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DCECC8221135FAC007A0C2C /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
 		2DCECC8521135FAC007A0C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DCECC8721135FAD007A0C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCECC8A21135FAD007A0C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCECC8C21135FAD007A0C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DCECC9121135FAD007A0C2C /* Current Ad RedesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Current Ad RedesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DCECC9521135FAD007A0C2C /* Current_Ad_RedesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current_Ad_RedesignTests.swift; sourceTree = "<group>"; };
-		2DCECC9721135FAD007A0C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DCECC9C21135FAD007A0C2C /* Current Ad RedesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Current Ad RedesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DCECCA021135FAD007A0C2C /* Current_Ad_RedesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current_Ad_RedesignUITests.swift; sourceTree = "<group>"; };
-		2DCECCA221135FAD007A0C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCECCAE21138084007A0C2C /* PageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTableViewController.swift; sourceTree = "<group>"; };
+		2DCECCB021138246007A0C2C /* PageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				2DCECC7F21135FAC007A0C2C /* Current Ad Redesign */,
-				2DCECC9421135FAD007A0C2C /* Current Ad RedesignTests */,
-				2DCECC9F21135FAD007A0C2C /* Current Ad RedesignUITests */,
 				2DCECC7E21135FAC007A0C2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				2DCECC8021135FAC007A0C2C /* AppDelegate.swift */,
-				2DCECC8221135FAC007A0C2C /* ViewController.swift */,
+				2DCECC8221135FAC007A0C2C /* AdViewController.swift */,
+				2DCECCB021138246007A0C2C /* PageTableViewCell.swift */,
+				2DCECCAE21138084007A0C2C /* PageTableViewController.swift */,
 				2DCECC8421135FAC007A0C2C /* Main.storyboard */,
 				2DCECC8721135FAD007A0C2C /* Assets.xcassets */,
 				2DCECC8921135FAD007A0C2C /* LaunchScreen.storyboard */,
 				2DCECC8C21135FAD007A0C2C /* Info.plist */,
 			);
 			path = "Current Ad Redesign";
-			sourceTree = "<group>";
-		};
-		2DCECC9421135FAD007A0C2C /* Current Ad RedesignTests */ = {
-			isa = PBXGroup;
-			children = (
-				2DCECC9521135FAD007A0C2C /* Current_Ad_RedesignTests.swift */,
-				2DCECC9721135FAD007A0C2C /* Info.plist */,
-			);
-			path = "Current Ad RedesignTests";
-			sourceTree = "<group>";
-		};
-		2DCECC9F21135FAD007A0C2C /* Current Ad RedesignUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2DCECCA021135FAD007A0C2C /* Current_Ad_RedesignUITests.swift */,
-				2DCECCA221135FAD007A0C2C /* Info.plist */,
-			);
-			path = "Current Ad RedesignUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCECC8321135FAC007A0C2C /* ViewController.swift in Sources */,
+				2DCECC8321135FAC007A0C2C /* AdViewController.swift in Sources */,
 				2DCECC8121135FAC007A0C2C /* AppDelegate.swift in Sources */,
+				2DCECCB121138246007A0C2C /* PageTableViewCell.swift in Sources */,
+				2DCECCAF21138084007A0C2C /* PageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCECC9621135FAD007A0C2C /* Current_Ad_RedesignTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCECCA121135FAD007A0C2C /* Current_Ad_RedesignUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
